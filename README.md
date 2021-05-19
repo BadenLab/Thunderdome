@@ -1,16 +1,14 @@
 <p align="right"><img src="https://github.com/BadenLab/Zebrafish-visual-space-model/blob/master/Images/Logo.png" width="300"/>
-<h1 align="center">LED Zappelin'</h1></p>
+<h1 align="center">Zebrafish Thunderdome'</h1></p>
 <h3 align="center">An open source and versatile LED controller for arbitrary spectrum visual stimulation<br>
 and optogenetics during 2-photon imaging.</h4>
-<p align="center"><h6 align="right">by M.J.Y. Zimmermann, A.M. Chagas, P. Bartel, S. Pop, L.L. Prieto Godino & T. Baden</h6></p>
+<p align="center"><h6 align="right">by M.J.Y. Zimmermann, A.M. Chagas, G. Kafetzis & T. Baden</h6></p>
 
 <br>
 
-This project was published in July 2020 in the journal [HardwareX](https://www.sciencedirect.com/science/article/pii/S2468067220300365)<br>
 This project is licensed under the [GNU General Public License v3.0](https://github.com/BadenLab/LED-Zappelin/blob/master/LICENSE)<br>
 The hardware is licensed under the [CERN OHL v1.2](https://github.com/BadenLab/LED-Zappelin/blob/master/PCB/LICENSE)
-
-[![Demo CountPages alpha](https://j.gifs.com/P7PMLn.gif)](https://youtu.be/FhLoFGbbpPo)
+<img align="center" src="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/master/Images/thunderdome.png">
 
 ***
 
