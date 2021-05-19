@@ -8,7 +8,8 @@ and optogenetics during 2-photon imaging.</h4>
 
 This project is licensed under the [GNU General Public License v3.0](https://github.com/BadenLab/LED-Zappelin/blob/master/LICENSE)<br>
 The hardware is licensed under the [CERN OHL v1.2](https://github.com/BadenLab/LED-Zappelin/blob/master/PCB/LICENSE)
-<img align="center" src="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/master/Images/thunderdome.png">
+
+<img align="center" src="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/Images/thunderdome.png">
 
 ***
 
