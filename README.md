@@ -1,7 +1,6 @@
 <p align="right"><img src="https://github.com/BadenLab/Zebrafish-visual-space-model/blob/master/Images/Logo.png" width="300"/>
-<h1 align="center">Zebrafish Thunderdome'</h1></p>
-<h3 align="center">An open source and versatile LED controller for arbitrary spectrum visual stimulation<br>
-and optogenetics during 2-photon imaging.</h4>
+<h1 align="center">Zebrafish Thunderdome</h1></p>
+<h3 align="center">An open source and versatile spatio-chromatic stimulation system for behavioural experiments</h4>
 <p align="center"><h6 align="right">by M.J.Y. Zimmermann, A.M. Chagas, G. Kafetzis & T. Baden</h6></p>
 
 <br>
@@ -13,7 +12,7 @@ The hardware is licensed under the [CERN OHL v1.2](https://github.com/BadenLab/L
 
 ***
 
-<h4 align="justify"> Two-photon (2P) microscopy is a cornerstone technique in neuroscience research, but combining this technology with spectrally arbitrary light stimulation can be challenging due to crosstalk between stimulation light and fluorescence detection. To overcome this limitation, we present a simple and low-cost electronic solution based on an ESP32 microcontroller and a TLC5947 LED driver to rapidly time-interleave stimulation and detection epochs during scans. Implemented for less than $100, our design can independently drive up to 24 arbitrary spectrum LEDs to meet user requirements. We demonstrate the utility of our stimulator for colour vision experiments on the in vivo tetrachromatic zebrafish retina and for optogenetic circuit mapping in Drosophila.</h4></p>
+<h4 align="justify"> This project aims to investigate the larval zebrafish behavioural responses to spatio-chromatic stimulation in a free-swimming environment. The "Thunderdome"© is a stimulation system designed to experiment on the tetrachromatic larval zebrafish. It is therefore designed around four set of LEDs (each LED matching the zebrafish' opsins peak absorption, cf [Zimmermann et al. 2018]())</h4></p>
 
 ***
 
