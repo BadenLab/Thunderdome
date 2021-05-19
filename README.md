@@ -12,8 +12,9 @@ The hardware is licensed under the [CERN OHL v1.2](https://github.com/BadenLab/L
 
 ***
 
-<h4 align="justify"> This project aims to investigate the larval zebrafish behavioural responses to spatio-chromatic stimulation in a free-swimming environment. The "Thunderdome"© is a stimulation system designed to experiment on the tetra-chromatic larval zebrafish. It is therefore designed around 4 set of LEDs (each LED matching the zebrafish' opsins peak absorption, cf. [Zimmermann et al. 2018](https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Zimmermann%202018.pdf) ), organised in 8 cardinal directions and 4 azimuths. [A detailed assembly and instruction manual](https://github.com/BadenLab/LED-Zappelin/blob/master/Instruction%20Manual/README.md)</h4></p>
+<h4 align="justify"> This project aims to investigate the larval zebrafish behavioural responses to spatio-chromatic stimulation in a free-swimming environment. The "Thunderdome"© is a stimulation system designed to experiment on the tetra-chromatic larval zebrafish. It is therefore designed around 4 set of LEDs (each LED matching the zebrafish' opsins peak absorption, cf. [Zimmermann et al. 2018](https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Zimmermann%202018.pdf) ), organised in 8 cardinal directions and 4 azimuths.</h4></p>
 
+[Zimmermann et al. 2018](https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Zimmermann%202018.pdf)
 ***
 
 - [An open and versatile LED controler](#Introduction)
