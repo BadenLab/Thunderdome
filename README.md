@@ -19,9 +19,8 @@ The hardware is licensed under the [CERN OHL v1.2](https://github.com/BadenLab/L
 
 - [An open and versatile LED controler](#Introduction)
 - [A semi-automated behavioural tracking](#Behaviour-tracking)
-- [A detailed assembly and instruction manual](https://github.com/BadenLab/LED-Zappelin/blob/master/Instruction%20Manual/README.md)
-- [A step by step calibration script](https://github.com/BadenLab/LED-Zappelin/blob/master/Instruction%20Manual/Stimulator%20Calibration/Stimulator_Calibration.ipynb)
-- [Required software](#Software)
+- [A detailed assembly and instruction manual](https://github.com/BadenLab/LED-Zappelin/blob/master/)
+- [Required software](#Required_software)
 - [Repository Structure](#Repository-Structure)
 
 ***
@@ -42,23 +41,19 @@ For tracking the larval zebrafish movements, we are considering two different ap
 - <a href="https://github.com/ncguilbeault/BonZeb">BonZeb</a>, a Bonsai library for high-resolution zebrafish behavioural tracking and analysis <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Guilbeault%202019.pdf">Guilbeault 2019</a>  
 </p>
 
+***
 
-
+## Required software
 
 ***
+
 ## Repository structure
 
 ```
-├───3D Designs                                Contains printed parts for the stimulator and optical components
-│   ├───Optical Components
-|   |   ├───STL renderings                    - Printing files
-|   |   └───SCAD files                        - SCAD files to be modified if need be
-│   ├───Optogenetics Components
-|   |   ├───STL renderings                    - Printing files
-|   |   └───SCAD files                        - SCAD files to be modified if need be
-│   └───Stimulator
-|       ├───STL renderings                    - Printing files
-|       └───SCAD files                        - SCAD files to be modified if need be
+├───3D Designs                                Contains printed parts for the stimulator
+|   ├───FreeCad renderings                      - Printing files
+|   ├───STL files                               - Printing files
+|   └───SCAD files                              - SCAD files to be modified if need be
 |
 ├───Arduino Code                              Stimulator Code
 |   ├───Stimulator Code                       - Adaptable C+ code for running the stimulator
@@ -66,8 +61,9 @@ For tracking the larval zebrafish movements, we are considering two different ap
 |
 ├───Bill of Materials                         List of necessary components and retailer suggestions
 |
+├───Bonsai code                               Bonsai pipeline for running the stimulation and export data
+|
 ├───Datasheets                                - Contains all technical sheet for:
-|   ├───Optical Components                    - ...LEDs, Filters, Dichroic Mirrors used in the presented example
 |   ├───Stimulator                            - ...micro-controller and LED driver
 |   └───Spectrometer                          - ...device used for calibration
 |
@@ -75,21 +71,11 @@ For tracking the larval zebrafish movements, we are considering two different ap
 |
 ├───Instruction Manual                        Detailed manual to assemble and calibrate the stimulator
 |   └───Stimulator Calibration                - Contains calibration recordings and the adaptable jupyter notebook script to calibrate the stimulator
-|       ├───Arduino Calibration Code          - Sequence used for the calibration
-|       ├───Calibration Figures               - Illustration from calibration measurements
-|       ├───Filters                           - Filters and dicroic mirrors spectra
-|       ├───Powermeter Recording              - Recording of the calibration sequence
-|       ├───Spectrometer Recording            - Recording of the calibration sequence
-|       └───Stimulator Calibration            - iPython Jupyter Notebook script for calibration
 |
-├───PCB                                       KiCad and Gerber files to modified and generate PCB for:
-│   ├───Potentiometer mounts                  - ...trimmer potentiometers that set the LED maximum brightness
-│   └───Stimulator                            - ...the stimulator itself
+├───PCB                                       KiCad and Gerber files to modify and generate PCB
 |
 └───References                                Publication used to design and conceive this model
 
 ```
 
 ***
-
-<img src="https://github.com/BadenLab/LED-Zappelin/blob/master/Images/Abstract.png" style="border: 1px solid black" />
