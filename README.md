@@ -18,7 +18,7 @@ The hardware is licensed under the [CERN OHL v1.2](https://github.com/BadenLab/L
 ***
 
 - [An open and versatile LED controler](#Introduction)
-- [A semi-automated behavioural tracking](#Behaviour tracking)
+- [A semi-automated behavioural tracking](#Behaviour-tracking)
 - [A detailed assembly and instruction manual](https://github.com/BadenLab/LED-Zappelin/blob/master/Instruction%20Manual/README.md)
 - [A step by step calibration script](https://github.com/BadenLab/LED-Zappelin/blob/master/Instruction%20Manual/Stimulator%20Calibration/Stimulator_Calibration.ipynb)
 - [Required software](#Software)
@@ -33,15 +33,14 @@ bonsai
 ***
 ## Behaviour tracking
 
-***
 
-<h5 align="justify">
+<a align="justify">
 For tracking the larval zebrafish movements, we are considering two different approaches:
 
 - <a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut</a>, a toolbox for markerless pose estimation based on transfer learning with deep neural networks that achieves excellent results with minimal training data <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Mathis%202018.pdf">Mathis et al. 2018</a>, <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Nath&Mathis%202019.pdf">Nath & Mathis 2019</a>.
 
 - <a href="https://github.com/ncguilbeault/BonZeb">BonZeb</a>, a Bonsai library for high-resolution zebrafish behavioural tracking and analysis <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Guilbeault%202019.pdf">Guilbeault 2019</a>  
-</h5>
+</a>
 
 
 
