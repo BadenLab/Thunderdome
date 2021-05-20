@@ -37,8 +37,10 @@ bonsai
 
 <h4 align="justify">
 For tracking the larval zebrafish movements, we are considering two different approaches:
-- [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut), a toolbox for markerless pose estimation based on transfer learning with deep neural networks that achieves excellent results with minimal training data <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Mathis%202018.pdf">Mathis et al. 2018</a>, <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Nath&Mathis%202019.pdf">Nath & Mathis 2019</a>  
-- [BonZeb](https://github.com/ncguilbeault/BonZeb)
+
+- <a href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut</a>, a toolbox for markerless pose estimation based on transfer learning with deep neural networks that achieves excellent results with minimal training data <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Mathis%202018.pdf">Mathis et al. 2018</a>, <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Nath&Mathis%202019.pdf">Nath & Mathis 2019</a>.
+
+- <a href="https://github.com/ncguilbeault/BonZeb"BonZeb</a>, a Bonsai library for high-resolution zebrafish behavioural tracking and analysis <a href="https://github.com/MaxZimmer/Zebra-Thunderdome/blob/main/References/Guilbeault%202019.pdf">Guilbeault 2019</a>  
 </h4>
 
 
